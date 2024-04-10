@@ -221,6 +221,4 @@ python main.py --invest='treasury_futures' --model_name='rnn' --model_type='clas
 
 <img src="./imgs/image-23.png" alt="image-20230716132329656" style="zoom:50%;" />
 
-<img src="/Users/harry-x/Library/Application Support/typora-user-images/image-20230716132348541.png" alt="image-20230716132348541" style="zoom:50%" />
-
 <div style="text-align: center; font-size: 14px; color: #666;">     &copy; 2023 Hongjie Xia, Fudan University.  </div>
