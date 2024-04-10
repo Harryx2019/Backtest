@@ -12,47 +12,7 @@
 
 ​		本框架的项目文件组织结构为：
 
-```python
-    ├── data_module/            # 数据模块文件夹
-    │   ├── data_pre_process.py       		# 数据预处理
-    │   ├── data_loader.py           		# 数据集构建
-    │   └── ...
-    ├── datasets/               # 数据集文件夹
-    │   ├── treasury_futures/     # 国债期货数据文件夹
-    │   │   ├── T.CFE_dataset_day.csv  	# 十年期国债期货日频数据
-    │   │   └── ... 
-    │   └── ...        
-    ├── logs/                   # 日志文件夹
-    │   ├── treasury_futures/     # 国债期货日志文件夹
-    │		│   ├── output_T.CFE.txt         		# 十年期国债期货日志文件
-    │		│   └── ...   
-    │   └── ... 
-    ├── models/                 # 模型文件夹
- 		│   ├── rnn/     							# 简单RNN模型
-    │		│   ├── rnn.py         							# 简单RNN模型
-    │		│   ├── rnn_learner.py         			# RNN学习器
-    │   │		└── ... 
-    │   └── ...   
-    ├── run/                 # pipeline文件夹
-    │   ├── treasury_futures.py    # 国债期货pipeline
-    │   └── ... 
-    ├── save_models/           	# 保存模型文件夹
-    │   ├── rnn/     							# 简单RNN模型
-    │		│   ├── rnn_T.CFE.pth         			# 十年期国债期货简单RNN模型
-    │		│   └── ...
-    │   └── ... 
-    ├── strategies/            	# 策略文件夹
-    │   ├── treasury_futures/     # 国债期货策略文件夹
-    │   │   ├── SimpleMovingAverageStrategy.py     # 简单均线策略
-    │   │   ├── RNNStrategy.py     								 # 简单RNN策略
-    │   │   └── ...
-    │   └── ...
-    ├── main.py                       # 主函数
-    ├── backtest.py                   # 回测模块
-    ├── requirements.txt             	# 项目依赖库文件
-    ├── README.md                     # 项目说明文件
-    └── .gitignore                   	# Git忽略文件列表
-```
+<img src="./imgs/content.jpg" alt="image-20230715140946291" style="zoom:50%;" />
 
 ### 1.2 Requirements
 
